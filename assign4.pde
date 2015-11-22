@@ -144,7 +144,7 @@ void draw() {
     enemyX%=965;
      
   //hit detection
-  if(fighterY+fighterImg.height*4/5>enemyY && fighterY+fighterImg.height/5<enemyY+enemyImg.height
+  if(fighterY+fighterImg.height>enemyY && fighterY+fighterImg.height<enemyY+enemyImg.height
   && fighterX<enemyX+enemyImg.width && fighterX+fighterImg.width>enemyX){
       hpX-=194*0.2;
     }
